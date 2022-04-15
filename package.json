@@ -1,0 +1,26 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "Note Web Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karam-zomlut/Note-App.git"
+  },
+  "keywords": [
+    "note",
+    "web",
+    "app",
+    "note",
+    "app"
+  ],
+  "author": "karam-zomlut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karam-zomlut/Note-App/issues"
+  },
+  "homepage": "https://github.com/karam-zomlut/Note-App#readme"
+}
