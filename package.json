@@ -14,13 +14,30 @@
     "note",
     "web",
     "app",
-    "note",
-    "app"
+    "note_app"
   ],
   "author": "karam-zomlut",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/karam-zomlut/Note-App/issues"
   },
-  "homepage": "https://github.com/karam-zomlut/Note-App#readme"
+  "homepage": "https://github.com/karam-zomlut/Note-App#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cross-env": "^7.0.3",
+    "env2": "^2.2.2",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.3.1",
+    "fs": "^0.0.1-security",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3",
+    "remixicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
