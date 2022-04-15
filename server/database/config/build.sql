@@ -16,7 +16,7 @@ CREATE TABLE notes (
   title VARCHAR(255) NOT NULL,
   body TEXT NOT NULL,
   created_at TIMESTAMP NOT NULL DEFAULT NOW(),
-  FOREIGN KEY (user_id) REFERENCES users(id)
+  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
 INSERT INTO users (username, password, email) VALUES ('admin', 'password', 'admin@gmail.com');
