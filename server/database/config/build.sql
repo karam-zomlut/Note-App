@@ -20,6 +20,11 @@ CREATE TABLE notes (
 );
 
 INSERT INTO users (username, password, email) VALUES ('admin', 'password', 'admin@gmail.com');
-INSERT INTO notes (user_id, title, body) VALUES (1, 'First Note', 'This is the first note');
+INSERT INTO notes (user_id, title, body) VALUES 
+(1, 'First Note', 'This is the first note'),
+(1, 'Second Note', 'This is the second note'),
+(1, 'Third Note', 'This is the third note'),
+(1, 'Fourth Note', 'This is the fourth note'),
+(1, 'Fifth Note', 'This is the fifth note');
 
 COMMIT;
